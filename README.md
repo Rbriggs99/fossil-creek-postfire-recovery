@@ -14,7 +14,7 @@ Quantify vegetation change and recovery patterns after the Backbone Fire using s
 - `data_raw/` – raw input datasets (not all are tracked in Git; large rasters and shapefiles are ignored)
 - `data_processed/` – cleaned/derived rasters and tables used in analysis
 - `docs/` – LaTeX reports (EDA report, rough draft, final paper – to be added)
-- `.gitignore` – patterns for files/folders that should not be committed (e.g., large geospatial data, cache files, OS junk)
+- `.gitignore` – patterns for files/folders that should not be committed (large geospatial data, cache files, OS junk)
 
 ## Environment
 
@@ -26,14 +26,8 @@ Main tools and libraries:
 - `rasterio`, `geopandas`, `shapely`
 - `scikit-learn` (Decision Trees, Random Forests)
 
-## How to Run (high level)
+## How to Run
 
 1. Create and activate a Python environment.
-2. Install dependencies (e.g., with `pip install -r requirements.txt` once that file is added).
+2. Install dependencies (with `pip install -r requirements.txt` once that file is added).
 3. Open the notebooks in Jupyter and run cells in order.
-
-## Code Link for DAT 490
-
-This GitHub repository serves as the **code appendix** for the DAT 490 capstone project. The URL you’ll put in the LaTeX appendix is:
-
-`https://github.com/Rbriggs99/fossil-creek-postfire-recovery`
